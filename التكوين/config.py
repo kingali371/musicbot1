@@ -17,14 +17,15 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "12562922"))
-API_HASH = getenv("API_HASH", "be8c6ebee1d73fa40cf05a6f00e27d43")
+API_ID = int(getenv("API_ID", "18264786"))
+API_HASH = getenv("API_HASH", "6fbfc7f20d4931cc84eb20bf4c738464")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5446694207:AAE_JSgMBn0iP2UuYOM6__g1_J7r_p9nWXY")
+BOT_TOKEN = getenv("BOT_TOKEN", "
+5529036972:AAG3e7bD8YDfODZBoLlEAA0G8ZT4cAPlQsQ")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vro:vro@cluster0.eyy25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
