@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "17189115"))
-API_HASH = getenv("API_HASH", "ad6127f6f268f1570e71816fe8d4b337")
+API_ID = int(getenv("API_ID", "8391586"))
+API_HASH = getenv("API_HASH", "b1a43ce85cad3c904b795c44c2aac9ef")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "2105039497:AAFWjJ9MasawGgW2Dt58vFZBBIB4PAoX6U4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5609399284:AAE1Q06_xGgPYxoQ-UG8Cxdfyp2MjimuB2o")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://MusicTxn:MusicTxn@cluster0.iiws8am.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/king1221?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001356928994"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001528138584"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MusicTxnBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music&protectionbot")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "2095537199").split())
+    map(int, getenv("OWNER_ID", "901751747").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,10 +56,10 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/nn9nn/MusicTxnBot",
+    "https://github.com/kingali371/music-v1",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "MusicTxnBot"
+    "BOT_USERNAME", "MusicKateabot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,22 +68,22 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "N1111V"
+    "CHANNEL_SUDO", "mmmmmmrmm"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", ""
+    "YAFA_NAME", "اثباتات ويوميات علوش آل گمر"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/"
+   " YAFA_CHANNEL", "https://t.me/mmmmmmrmm"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/"
+    "SUDO_USER", "https://t.me/U_8_U_2"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", ""
+    "SUPPORT_CHANNEL", "https://t.me/mmmmmmrmm"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/"
+    "SUPPORT_GROUP", "https://t.me/assdsyria"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -115,7 +115,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/S_Y_W")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/U_8_U_2")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BABGJMroX3MasB3u5AggoX5gDpcyf-Sgui50ilfcMN_MX9tURHdL_7QJHjX4rd9IZohIudCBtvhK44R4931JAeJzbJfIx7uTYUoUkm6mPV1V6_raXb50rj6rU6uKmjV48AUJnlZlDpIs1Qd1Xqsv2iPboE6tj4z0Z4MYmEIdij7DPr70Y47yIhyGKueRMEHed3NXQvPPAZ3-n7pzQHTPhvSeRkBTGLjz0FNGSQsrH-Jjj9gRPr4oJJPZ-_sWd5CELKYOlBzFkpYFijYmpA20gnYi8-vh-HyXn_UTbQWrMAFird4pGypRr2xmVdWXZJFX5AOsVWib79aVDbpE0JGXRL_XfaTslgA")
+STRING1 = getenv("STRING_SESSION", "BABfEA41G4YJNv1Sphkt2qqEJkZbnv62B00f9_whpeC5PJUGbityfopQVVbA_tiOshkLWXqMCpoyif0QYLrlk9kfm_OBwt1vVuJ19v9NXDql13NhXbi9x4dPAk-mzMVYlxPKWzokVq4zA88MxPxQOfjbGJp9NBxzu2SeyJpFAIwXWaD3YOY9p0cZoqRD2RcyDFcO09DhDX7QudX0XKd6_LLYZQSmB2onDwlmSSx58O_LeynKm-W1nNgN3Y2IuXhU3eeVKTRm1_b1-TTZTgW6meKUKM2Nt0rDY-qlwtYG94PSdXFChnWa-mxIdwjrUALMviJoiwPVLh4KNbHrebfJGaGiAAAAAVm41b8ABABfEA41G4YJNv1Sphkt2qqEJkZbnv62B00f9_whpeC5PJUGbityfopQVVbA_tiOshkLWXqMCpoyif0QYLrlk9kfm_OBwt1vVuJ19v9NXDql13NhXbi9x4dPAk-mzMVYlxPKWzokVq4zA88MxPxQOfjbGJp9NBxzu2SeyJpFAIwXWaD3YOY9p0cZoqRD2RcyDFcO09DhDX7QudX0XKd6_LLYZQSmB2onDwlmSSx58O_LeynKm-W1nNgN3Y2IuXhU3eeVKTRm1_b1-TTZTgW6meKUKM2Nt0rDY-qlwtYG94PSdXFChnWa-mxIdwjrUALMviJoiwPVLh4KNbHrebfJGaGiAAAAAVm41b8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c9f32c5803caf6010f07d.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/1e3403dd117fa678f6533.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
