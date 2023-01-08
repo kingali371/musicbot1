@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "8391586"))
 API_HASH = getenv("API_HASH", "b1a43ce85cad3c904b795c44c2aac9ef")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5914256650:AAH4TMntRqhYXBHMR5O1QzxuL3lJJpn7QMg")
+BOT_TOKEN = getenv("BOT_TOKEN", "5914256650:AAF86BaCTFuItLD2d5LzCRSsLW6fqvmy_l4")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://lucifer:ASShaw96@lucifer.vuows.mongodb.net/king1221?retryWrites=true&w=majority")
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BACeYYHFR_DxqgRE1FBySyLUU8rerS-StfaWTAEvByoJSmgSDVI_2D0h9CPLN9p8FGqtAuZhv4n-hsv5c1C3KloiaATUn0oK2yAD4LGBy90nwr6rgPgptZZkflegb0EYhuqS4Pr7V67OZrydhrdm_Mt_chPxeEyuXZFMwG9xzIkBh6N4oPJ76EnKtxyUAhd36vZUsyNVGAw-gCNGFgqR8oZMNTGD8Rkc_RciXar9AuQUu8dIb4wi1CJ1L3Saqcn_BlK2k23W6yWq53wTGzSa4rvanTGJR56gh8ffZfbkyBy3zjMfn60RATSZc1xQWzfy9Iy1rNCt5QLV9DYZ6OlP6tQieXmNbgA")
+STRING1 = getenv("STRING_SESSION", "BAAlUgjNPp0QUwvdiIsE9UiH8KAczl8FqaOqvefW1QNcr8N1ifNyHg7n0PF2cbEY3rQCXXZc1ZawXkV66BVOG4tRINLm8Gmd_chnXFVWBUKKi46khGPfo8lUFcdTm15ZWwTVZLrmfay21PA0Zg-UJHHhVCTqwvdlxYlR_zesH-H6yU2xE_SB4OCmQdwFKhiLsBb-JH7nexpPy5P3k8D8I_MCiasRHLNZcwyIC0Y0bjZrEeuj-M0KAqkKlZ9C1eJCjweNGuWq77SRjjU-muFFtTwL46Ek_XmwmX-A_kfRlj2_iX_1r6XPBv25vzkBOl_o7esWQKtkUT9LuwbEID_rhFHbeXmNbgA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
